@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2021_05_27_232219) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+
   create_table "artwork_shares", force: :cascade do |t|
     t.integer "artwork_id", null: false
     t.integer "viewer_id", null: false

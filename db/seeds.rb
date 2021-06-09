@@ -18,3 +18,7 @@ cactus = Artwork.create(title: "Cactus", image_url: "second_url", artist_id: res
 hotdog = Artwork.create(title: "Hotdog", image_url: "third_url", artist_id: wamucii.id)
 bee = Artwork.create(title: "Bee", image_url: "third_url", artist_id: reson.id)
 
+ArtworkShare.create(artwork_id: mushroom.id, viewer_id: reson.id)
+ArtworkShare.create(artwork_id: cactus.id, viewer_id: ramsey.id)
+ArtworkShare.create(artwork_id: hotdog.id, viewer_id: reson.id)
+
